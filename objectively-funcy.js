@@ -39,6 +39,6 @@ const divorce = function(spouse1, spouse2) {
   spouse1.married = false;
   spouse2['married'] = false;
 
-  delete spouse1.spouseName;
+  delete spouse2.spouseName;
   delete spouse2['spouseName'];
 }
